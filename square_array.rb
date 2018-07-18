@@ -1,8 +1,4 @@
 def square_array(array)
-
-  array.each { |i|
-    num = array[i]
-    array[i] = num * num
-  }
-  end
+  array.each do |i|
+    array[i] = array[i] **2
 end
